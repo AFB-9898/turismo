@@ -1,12 +1,13 @@
-import Body from "./components/body/Body";
+//import React from "react";
 import Header from "./components/header/Header";
+import Body from "./components/body/Body";
 import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div>
       <Header />
-      <main className="flex-grow">
+      <main>
         <Body />
       </main>
       <Footer />
